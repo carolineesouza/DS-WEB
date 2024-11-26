@@ -1,0 +1,42 @@
+h1{
+    color: blueviolet;
+}
+nav{
+    display: inline-block;
+    width: 200px;
+    background-color: rgb(157, 87, 223);
+}
+a{
+    display: block;
+    text-decoration: dotted;
+}
+.segunda{
+    margin: 0 auto;
+    background-color: rgb(237, 118, 241);
+    width: 600px;
+    padding:300px;
+    padding-left: 350px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+body{
+    background-image: url('paisagem.jpg');
+    background-size: cover;
+}
+.menu-top{
+    width: 100%;
+    padding: 20px;
+    padding-left: 200px;
+    background-color: white;
+    top: 0;
+    display: flex;
+}
+.titulo-home{
+    margin-top: 30px;
+    margin-left: 10px;
+}
