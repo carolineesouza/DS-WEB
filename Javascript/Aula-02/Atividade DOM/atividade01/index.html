@@ -12,6 +12,40 @@
     <button onclick="Ola()">Enviar</button>
     <h2 id="mensagem"></h2>
 
+    <h1>Validação Par ou Ímpar</h1>
+    <input type="number" id="numero" placeholder="Insira um número">
+    <button onclick="validarParOuImpar()">Verificar</button>
+    <p id="resultado"></p>
+
+    <h1>Deixar as letras em Caixa</h1>
+    <input type="text" id="texto" placeholder="Digite um texto">
+    <button onclick="converterCaixaAlta()">Converter</button>
+    <p id="textoResultado"></p>
+
+    <h1>Calcular Porcentagem</h1>
+    <input type="number" id="valor" placeholder="Insira um valor um valor">
+    <input type="number" id="porcentagem" placeholder="Digite a porcentagem">
+    <button onclick="calcularPorcentagem()">Calcular</button>
+    <p id="resultadoPorcentagem"></p>
+
+    <style>
+        .corInicial {
+            width: 200px;
+            height: 200px;
+            background-color: rgb(189, 4, 4);
+            text-align: center;
+            line-height: 200px;
+            font-weight: bold;
+        }
+
+        .corNova {
+            background-color: blue;
+        }
+    </style>
+
+    <div id="minhaDiv" class="corInicial">Clique no botão</div>
+    <button onclick="mudarCor()">Mudar Cor</button>
+
 </body>
     <script src="script.js"></script>
 </html>

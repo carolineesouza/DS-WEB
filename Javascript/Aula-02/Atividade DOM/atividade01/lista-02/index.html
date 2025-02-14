@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--verificação de idade-->
+    <h1>Verificação de Idade</h1>
+    <label for="idade">Digite sua idade:</label>
+    <input type="number" id="numero">
+    <button onclick="verificarIdade()">Verificar</button>
+    <p id="mensagem"></p>
+
+    <!--verificação de numeros-->
+    <h1>Verificação de Número</h1>
+    <label for="numero">Digite um número:</label>
+    <input type="number" id="numero2">
+    <button onclick="verificarNumero()">Verificar</button>
+    <p id="resultado"></p>
+
+    <!--login-->
+    <h1>Login</h1>
+    <label for="usuario">Usuário:</label>
+    <input type="text" id="usuario" required>
+    <br><br>
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha" required>
+    <br><br>
+    <button onclick="validarLogin()">Validar</button>
+    <p id="mensagem2"></p>
+
+    <!--numeros e operações-->
+    <h1>Calculadora Simples</h1>
+    <input type="number" id="num1" placeholder="Digite o primeiro número">
+    <br>
+    <input type="number" id="num2" placeholder="Digite o segundo número">
+    <br>
+    <select id="operacao">
+        <option value="add">Adição (+)</option>
+        <br>
+        <option value="sub">Subtração (-)</option>
+        <option value="mul">Multiplicação (*)</option>
+        <option value="div">Divisão (/)</option>
+    </select>
+    <br>
+    <button onclick="calcular()">Calcular</button>
+    <p id="resultado2"></p>
+
+    <!--par e impar-->
+    <h1>Verificação Par ou Ímpar</h1>
+    <input type="number" id="numero1" placeholder="Insira um número">
+
+    <button onclick="validar()">Verificar</button>
+    <p id="resultado3"></p>
+
+
+    <!--encontrar o maior numero-->
+    <h1>Econtre o maior numero</h1>
+    <label for="number1">Número1</label>
+    <input type="number" id="number1">
+
+    <label for="number2">Número2</label>
+    <input type="number" id="number2">
+
+    <label for="number3">Número3</label>
+    <input type="number" id="number3">
+
+    <button onclick="encontre()">Encontrar</button>
+    <p id="resultado4"></p>
+
+    <script src="script.js"></script>
+
+    <!--lados do triangulo-->
+    <h1>digite os lados do triangulo</h1>
+    <label for="lado1">Lado 1:</label>
+    <input type="number" id="lado1"><br><br>
+
+    <label for="lado2">lado 2:</label>
+    <input type="number" id="lado2"><br><br>
+
+    <label for="lado3">lado 3:</label>
+    <input type="number" id="lado3"><br><br>
+
+    <button onclick="tipo()">tipo de triangulo é</button>
+    <p id="triangulo"></p>
+
+</body>
+    
+</html>
+
+
