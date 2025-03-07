@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de JavaScript</title>
+</head>
+<body>
+    <style>
+        .caixa {
+          width: 300px;
+          height: 300px;
+          background-color: rgb(255, 4, 196);
+          transition: all 0.3s ease; 
+        }
+      </style>
+
+    <div class="caixa" id="caixa"></div>
+
+    <!--mensagem em tempo real-->
+    <label for="campoTexto">Digite algo:</label>
+    <input type="text" id="campoTexto">
+    <p><strong>Você digitou:</strong> <span id="exibicaoTexto"></span></p>
+
+    <!--contador de cliques-->
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <button id= "botaoClique" onclick="contarCliques()">clicar</button>
+    <p>Contagem de Cliques: <span id="contador">0</span> </p>
+    
+
+</body>
+    <script src="script.js"></script>
+</html>
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="div01">
+        <input type="text" id="nome" placeholder="Insira o nome do usuário">
+        <br><br>
+        <input type="text" id="descricao" placeholder="Insira descrição do cartão">
+        <br><br>
+        <button onclick="calcular()" id="Meubotao">Criar cartão!</button>
+    </div>
+
+    <div id="cartao"></div>
+
+    <style>
+        body {
+            align-items: center;
+            background-color: #630268;
+            margin: 200px;
+            padding: 20px;
+        }
+
+        .div01 {
+            background: #a90f8a;
+            padding: 20px;
+            border-radius: 12px;
+            width: 320px;
+            text-align: center;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #92507e;
+            border-radius: 8px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #a36190;
+            color: rgb(0, 0, 0);
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+    </style>
+
+</body>
+<script src="script.js"></script>
+</html>

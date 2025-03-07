@@ -1,0 +1,10 @@
+<?php
+
+// MySql
+$db=new PDO("mysql:host=localhost;dbname=pdo", "root", "");
+
+
+
+
+
+
