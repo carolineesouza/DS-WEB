@@ -40,7 +40,7 @@
 
                 foreach ($todas_vendas as $venda) {
                     // Buscar nome do cliente
-                    $queryCliente = $db->prepare("SELECT nome FROM clientes WHERE id = ?");
+                    $queryCliente = $db->prepare("SELECT nome FROM cliente WHERE id = ?");
                     $queryCliente->execute([$venda['idCliente']]);
                     $cliente = $queryCliente->fetch(PDO::FETCH_ASSOC);
                     $nomeCliente = $cliente['nome'] ?? 'Desconhecido';

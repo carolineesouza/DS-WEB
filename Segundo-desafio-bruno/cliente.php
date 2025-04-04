@@ -44,7 +44,7 @@
         include 'conexao.php';
 
         echo "<h2>Consulta de Clientes</h2>";
-        $dados = $db->query("SELECT * FROM clientes");
+        $dados = $db->query("SELECT * FROM cliente");
         $todos = $dados->fetchAll(PDO::FETCH_ASSOC); //Todos os registros retornados
         echo "<table id='clientes'>";
         echo "

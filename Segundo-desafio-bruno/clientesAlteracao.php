@@ -28,7 +28,7 @@
             header("Location: clientes.php");
         }   
         include 'conexao.php';
-        $stmt = $db->prepare("SELECT * FROM clientes WHERE id=:id");
+        $stmt = $db->prepare("SELECT * FROM cliente WHERE id=:id");
         $stmt->execute(array('id'=>$_GET['id']));
         $dados = $stmt->fetch(PDO::FETCH_ASSOC);
 

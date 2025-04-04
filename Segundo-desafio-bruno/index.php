@@ -25,7 +25,7 @@
     <?php  
         include 'conexao.php';
         echo "<h2></h2>";
-        $dados = $db->query("SELECT * FROM clientes");
+        $dados = $db->query("SELECT * FROM cliente");
         echo "O sistema contem ".$dados->rowCount()." clientes cadastrados";
         
     ?>

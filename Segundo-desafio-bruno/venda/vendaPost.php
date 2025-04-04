@@ -67,7 +67,7 @@ try{
     //Valida dados presentes no banco de dados
     include('../conexao.php');
         // Verifica se cliente existe
-        $stmt = $db->prepare("SELECT id FROM clientes WHERE id = :id");
+        $stmt = $db->prepare("SELECT id FROM cliente WHERE id = :id");
         $stmt ->bindParam(':id',$data['cliente']['idCliente']);
         $stmt->execute();
         if ($stmt->rowCount() === 0) {

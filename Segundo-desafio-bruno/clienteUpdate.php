@@ -8,7 +8,7 @@
     $observacao = $_POST['observacao'];
     
     include "conexao.php";
-    $stmt = $db->prepare('UPDATE clientes SET nome = :nome, email = :email, observacao = :observacao WHERE id = :id');
+    $stmt = $db->prepare('UPDATE cliente SET nome = :nome, email = :email, observacao = :observacao WHERE id = :id');
     $stmt->execute(array(
         ':nome'   => $nome,
         ':email' => $email,

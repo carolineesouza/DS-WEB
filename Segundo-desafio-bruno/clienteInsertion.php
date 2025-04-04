@@ -11,7 +11,7 @@
             include "conexao.php";
 
             echo "<h2>Inserindo dados</h2>";
-            $statement = $db->prepare("INSERT INTO clientes (nome, email, observacao) VALUES (?, ?, ?)");
+            $statement = $db->prepare("INSERT INTO cliente (nome, email, observacao) VALUES (?, ?, ?)");
 
             $statement->execute(array($nome, $email, $observacao));
         }

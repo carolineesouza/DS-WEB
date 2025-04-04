@@ -3,7 +3,7 @@
 
     include "conexao.php";
 
-    $stmt = $db->prepare("DELETE FROM clientes WHERE id = :id");
+    $stmt = $db->prepare("DELETE FROM cliente WHERE id = :id");
     $stmt->bindParam(':id', $id);
     $stmt->execute();
     if ($stmt->rowCount() > 0){

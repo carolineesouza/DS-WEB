@@ -35,7 +35,7 @@
         include 'conexao.php';
 
         echo "<h4>Selecione um cliente</h4>";
-        $dados = $db->query("SELECT * FROM clientes");
+        $dados = $db->query("SELECT * FROM cliente");
         $todos = $dados->fetchAll(PDO::FETCH_ASSOC); //Todos os registros retornados
         echo "<table id='clientes'>";
         echo "
